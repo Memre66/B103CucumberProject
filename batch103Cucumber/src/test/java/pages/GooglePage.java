@@ -1,26 +1,19 @@
-package runners;
+package pages;
 
-import io.cucumber.junit.Cucumber;
-import io.cucumber.junit.CucumberOptions;
-import org.junit.runner.RunWith;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import utilities.Driver;
 
-@RunWith(Cucumber.class)
-@CucumberOptions(
-        plugin = {
-                "pretty",//raporlarin daha ikunakli olmasi icin
-                "html:target/default-cucumber-reports.html",
-                "json:target/json-reports/cucumber.json",
-                "junit:target/xml-report/cucumber.xml"
-        },
-        monochrome = true,//raporlarin consoleda okunakli sekilde cikmasi icin
-        features = "./src/test/resources/features",//features folder path
-        glue = "stepdefinitions",   //stepdefinitions path
-        tags = "@personel_olusturma",
-        dryRun = false
+public class GooglePage {
 
-)
-public class Runner {
+    public GooglePage(){
+        PageFactory.initElements(Driver.getDriver(),this);
+    }
+    @FindBy(xpath = "(//div[@class='QS5gu sy4vM'])[2]")
+    public WebElement popUpAccept;
+
+    @FindBy(name = "q")
+    public WebElement searchBox;
+
 }
-//Bu sinif Test caseleri RUN etmek icin kullanilir
-//Ve konfigurasyonlar icin kullanilir
-//Runner class, features file lar ile step defitions i birbirile baglar

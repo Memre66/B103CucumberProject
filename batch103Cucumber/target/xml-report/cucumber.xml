@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="110.211" tests="6" skipped="0" failures="0" errors="0">
+<testcase classname="arama_feature_2" name="arama_testi - data - Example #1.1" time="27.834">
+<system-out><![CDATA[
+Given kullanici google gider................................................passed
+When kullanici "iphone" için arama yapar....................................passed
+Then sonuclarin "iphone" icerdigini dogrula.................................passed
+Then close the application..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="arama_feature_2" name="arama_testi - data - Example #1.2" time="15.436">
+<system-out><![CDATA[
+Given kullanici google gider................................................passed
+When kullanici "tesla" için arama yapar.....................................passed
+Then sonuclarin "tesla" icerdigini dogrula..................................passed
+Then close the application..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="arama_feature_2" name="arama_testi - data - Example #1.3" time="16.253">
+<system-out><![CDATA[
+Given kullanici google gider................................................passed
+When kullanici "tv" için arama yapar........................................passed
+Then sonuclarin "tv" icerdigini dogrula.....................................passed
+Then close the application..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="arama_feature_2" name="arama_testi - data - Example #1.4" time="24.447">
+<system-out><![CDATA[
+Given kullanici google gider................................................passed
+When kullanici "flower" için arama yapar....................................passed
+Then sonuclarin "flower" icerdigini dogrula.................................passed
+Then close the application..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="arama_feature_2" name="arama_testi - data - Example #1.5" time="13.4">
+<system-out><![CDATA[
+Given kullanici google gider................................................passed
+When kullanici "cat" için arama yapar.......................................passed
+Then sonuclarin "cat" icerdigini dogrula....................................passed
+Then close the application..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="arama_feature_2" name="arama_testi - data - Example #1.6" time="12.009">
+<system-out><![CDATA[
+Given kullanici google gider................................................passed
+When kullanici "dog" için arama yapar.......................................passed
+Then sonuclarin "dog" icerdigini dogrula....................................passed
+Then close the application..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
